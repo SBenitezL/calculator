@@ -67,14 +67,18 @@ Inicalmente, visualizará un menú y podrá escoger entre varias opciones, tales
 En una primera versión se realizará por una interfaz de consola.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Habilidades puestas en práctica
-* Creación de variables
-* Operadores
-* Sentencias condicionales
-* Ciclos
-* Funciones
+
+- Creación de variables
+- Operadores
+- Sentencias condicionales
+- Ciclos
+- Funciones
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Tecnologias
+
 - [![Java][Java-shield]][Java-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
