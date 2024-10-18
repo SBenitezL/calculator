@@ -16,8 +16,8 @@
 <li>
 <a href="#acerca-del-proyecto">Acerca del proyecto</a>
 <ul>
-<li><a href="#tecnologias">Tecnologías</a></li>
 <li><a href="#habilidades-puestas-en-práctica">Habilidades puestas en práctica</a></li>
+<li><a href="#tecnologias">Tecnologías</a></li>
 </ul>
 </li>
 <li>
@@ -39,7 +39,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/SBenitezL/calculator">
-    <img src="source/logo_calculator.jepg" alt="Logo" width="80" height="80">
+    <img src="source/logo_calculator.jpeg" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Calculator</h3>
@@ -79,7 +79,7 @@ En una primera versión se realizará por una interfaz de consola.
 
 ## Tecnologias
 
-- [![Java][Java-shield]][Java-url]
+- [![Java][Java-shield]][Java-link]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,4 +99,4 @@ En una primera versión se realizará por una interfaz de consola.
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/santiago-benitez-lopez
 [Java-shield]: https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white
-[Java-link]: https://www.java.com/es/
+[Java-link]: https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html
