@@ -35,5 +35,5 @@ public interface ICalculator {
      * @return {@code Double} retorna el resultado de la division de los dos
      *         operadores.
      */
-    Double division(Double op1, Double op2);
+    Double division(Double op1, Double op2) throws Exception;
 }
