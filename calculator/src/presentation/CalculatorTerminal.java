@@ -15,6 +15,9 @@ public class CalculatorTerminal {
 
     public void start() {
         System.out.println("**** Aplicación calculadora ****");
+        do {
+            menuOperaciones();
+        } while (true);
     }
 
     // #region menus
@@ -26,14 +29,15 @@ public class CalculatorTerminal {
         System.out.println("2. Resta.");
         System.out.println("3. Multiplicación.");
         System.out.println("4. División.");
+        System.out.println("5. Salir.");
         this.llamarOperaciones(this.leerOpcion());
     }
 
     public void suma() {
         Double op1, op2;
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("++++++++++++++++++++++++++++++++++++++++");
         System.out.println("\tMenú de Suma");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("++++++++++++++++++++++++++++++++++++++++");
         System.out.print("Ingrese el operando 1: ");
         op1 = this.leerOperando();
         System.out.print("Ingrese el operando 2: ");
@@ -43,9 +47,9 @@ public class CalculatorTerminal {
 
     public void resta() {
         Double op1, op2;
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("----------------------------------------");
         System.out.println("\tMenú de Resta");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("----------------------------------------");
         System.out.print("Ingrese el operando 1: ");
         op1 = this.leerOperando();
         System.out.print("Ingrese el operando 2: ");
@@ -55,9 +59,9 @@ public class CalculatorTerminal {
 
     public void multiplicacion() {
         Double op1, op2;
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("****************************************");
         System.out.println("\tMenú de Multiplicación");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("****************************************");
         System.out.print("Ingrese el operando 1: ");
         op1 = this.leerOperando();
         System.out.print("Ingrese el operando 2: ");
@@ -67,9 +71,9 @@ public class CalculatorTerminal {
 
     public void division() {
         Double op1, op2, res;
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("////////////////////////////////////////");
         System.out.println("\tMenú de Division");
-        System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println("////////////////////////////////////////");
         System.out.print("Ingrese el operando 1: ");
         op1 = this.leerOperando();
         System.out.print("Ingrese el operando 2: ");
@@ -102,6 +106,10 @@ public class CalculatorTerminal {
             case 5:
                 System.exit(0);
         }
+        System.out.println("Presione enter para continuar...");
+        this.consola.nextLine();
+        System.out.print("\033[H\033[2J");
+        System.out.flush();
     }
     // #endregion
 
